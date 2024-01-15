@@ -54,3 +54,34 @@ La config de Git se fait avec la commande `git config`. Il est possible de confi
 
 - `git config --global user.name "John Doe"` : définir le nom de l'utilisateur.
 - `git config --global user.email
+
+#### Git init
+
+La commande `git init` permet d'initialiser un projet Git. Elle crée un dossier `.git` qui contient les informations de versionning.
+
+#### Git status
+
+La commande `git status` permet de voir l'état du projet. Elle permet de voir les fichiers modifiés, les fichiers ajoutés, les fichiers supprimés, etc...
+
+#### Git add
+
+La commande `git add` permet d'ajouter des fichiers au prochain commit. Elle permet de préparer les fichiers à envoyer.
+
+- `git add .` : ajouter tous les fichiers.
+- `git add <fichier>` : ajouter un fichier.
+- `git add -p <fichier>` : ajouter un fichier en mode interactif.
+
+#### Git commit
+
+La commande `git commit` permet d'envoyer les modifications. Elle permet de valider les modifications.
+
+- `git commit -m "Message de commit"` : envoyer les modifications avec un message de commit.
+- `git commit -a -m "Message de commit"` : envoyer les modifications de tous les fichiers modifiés avec un message de commit.
+
+#### Git log
+
+La commande `git log` permet de voir l'historique des commits. Elle permet de voir les informations des commits (hash, auteur, date, message, etc...).
+
+#### Git diff
+
+La commande `git diff` permet de voir les modifications apportées aux fichiers. Elle permet de voir les lignes ajoutées, modifiées ou supprimées.
