@@ -85,3 +85,49 @@ La commande `git log` permet de voir l'historique des commits. Elle permet de vo
 #### Git diff
 
 La commande `git diff` permet de voir les modifications apportées aux fichiers. Elle permet de voir les lignes ajoutées, modifiées ou supprimées.
+
+- `git diff` : voir les modifications apportées aux fichiers.
+- `git diff --staged` : voir les modifications apportées aux fichiers ajoutés au prochain commit.
+
+#### Git checkout
+
+La commande `git checkout` permet de récupérer les modifications. Elle permet de récupérer les modifications d'un fichier ou d'une branche.
+
+- `git checkout <fichier>` : récupérer les modifications d'un fichier.
+- `git checkout <branche>` : récupérer les modifications d'une branche.
+
+#### Git reset
+
+La commande `git reset` permet d'annuler les modifications. Elle permet d'annuler les modifications d'un fichier ou d'une branche.
+
+- `git reset <fichier>` : annuler les modifications d'un fichier.
+- `git reset <branche>` : annuler les modifications d'une branche.
+
+#### Git branch
+
+La commande `git branch` permet de gérer les branches. Elle permet de voir les branches, de créer des branches, de supprimer des branches, de renommer des branches, etc...
+
+- `git branch` : voir les branches.
+- `git branch <branche>` : créer une branche.
+- `git branch -d <branche>` : supprimer une branche.
+- `git branch -m <branche>` : renommer une branche.
+
+#### Git merge
+
+La commande `git merge` permet de fusionner les branches. Elle permet de fusionner une branche dans une autre branche.
+
+- `git merge <branche>` : fusionner une branche dans la branche courante.
+
+#### Git remote
+
+La commande `git remote` permet de gérer les serveurs distants. Elle permet de voir les serveurs distants, d'ajouter des serveurs distants, de supprimer des serveurs distants, etc...
+
+- `git remote` : voir les serveurs distants.
+- `git remote add <nom> <url>` : ajouter un serveur distant.
+- `git remote remove <nom>` : supprimer un serveur distant.
+
+#### Git push
+
+La commande `git push` permet d'envoyer les modifications sur un serveur distant. Elle permet d'envoyer les modifications de la branche courante sur un serveur distant.
+
+- `git push : envoyer les modifications de la branche courante sur un serveur distant.
