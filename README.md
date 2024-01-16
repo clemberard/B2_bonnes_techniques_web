@@ -13,4 +13,5 @@
 
 ## TP3
 
-- Tache 1 : 
+Oups, j'ai oublié de faire des commits pour le TP3, je vais le faire pour le TP4
+- Tache 2 : 
