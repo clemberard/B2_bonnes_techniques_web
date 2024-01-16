@@ -13,5 +13,11 @@
 
 ## TP3
 
-Oups, j'ai oublié de faire des commits pour le TP3, je vais le faire pour le TP4
 - Tache 2 : 
+
+## TP4
+
+- Tache 1 : Les revues de code sont faites par les autres membres de l'équipe. Les revues de code sont faites sur les branches de fonctionnalités et elles sont faites avant la fusion des branches de fonctionnalités
+
+## TP5
+
